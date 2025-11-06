@@ -1,0 +1,2984 @@
+[
+    {
+        "pk": "44f6038e-8191-4792-9c63-8bb1f03b1c1c",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_21^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_21^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_21^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_21^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "c4e326a4-d984-401a-ad97-3acafcad3ce3",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_20^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_20^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_20^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_20^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "386e5541-9306-4831-8328-ded7a049edce",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_19^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_19^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_19^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_19^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "ec0300a5-c449-490f-a667-5add9fcd79b5",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_18^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_18^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_18^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_18^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_18^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "261c42b4-6022-4e30-9398-944c8d69edb5",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_17^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_17^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_17^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_17^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_17^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "2c7c068f-3598-4481-8b64-ea27cfc4643f",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_16^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_16^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_16^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_16^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_16^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "402b94fb-25c9-4201-8bb8-f48ea3b96802",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_15^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_15^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_15^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_15^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_15^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_15^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "297f636a-f775-496b-94fb-2b20bbfc34aa",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_14^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_14^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_14^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_14^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_14^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_14^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "37661bb8-d3b6-435a-9085-d11f0bee0679",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_13^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_13^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_13^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_13^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_13^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_13^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "2c435f2e-122d-4a40-b3eb-be4e93928575",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_12^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_12^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_12^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_12^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_12^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_12^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_12^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "9dc699c9-9a59-44a2-bc7b-2dfd497caabc",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_11^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_11^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_11^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_11^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_11^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_11^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_11^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "7e181852-5c85-403c-abfd-e51f9546af82",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_10^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_10^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_10^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_10^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_10^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_10^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_10^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "e68b6b4a-4088-4fe2-a92a-afb82e27bf42",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_9^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_9^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_9^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_9^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_9^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_9^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_9^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_9^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "95c04dc3-94b1-4957-a30a-045b9c809aef",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_8^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_8^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_8^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_8^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_8^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_8^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_8^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_8^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "c82b8dc7-07bc-49c9-bb26-09119d415547",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_7^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_7^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_7^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_7^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_7^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_7^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_7^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_7^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "3a322531-8427-41e3-8b5b-a55555dc326e",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_6^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-7",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-7",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "bd8316a1-f469-4f57-8200-4eca23de7d26",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_5^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-7",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-7",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "773f3e9e-8fa4-4e0c-9daa-66cb1dc6af12",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_4^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-7",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-7",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "b3c15301-29b4-4e53-9fea-5557a2e08257",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-7",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-7",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_3^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-8",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-8",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "463278da-ae6a-4e5e-b000-5855bffc386c",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-7",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-7",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_2^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-8",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-8",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "2ca9e847-2df3-45f0-9b6b-0e1b8111c7ee",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-1",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-1",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-2",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-2",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "t2-breast-mri",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/t2-breast-mri",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-0",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-0",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-3",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-3",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-4",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-4",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-5",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-5",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-6",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-6",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-7",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-7",
+                    "example_value": null
+                }
+            },
+            {
+                "file": null,
+                "image": {
+                    "name": "examID_1^filename"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "dce-breast-mri-timepoint-8",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/dce-breast-mri-8",
+                    "example_value": null
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": null,
+                "image": null,
+                "value": {
+                    "left": {
+                        "benign": 0.01,
+                        "normal": 0.988,
+                        "malignant": 0.001
+                    },
+                    "right": {
+                        "benign": 0.01,
+                        "normal": 0.001,
+                        "malignant": 0.988
+                    }
+                },
+                "interface": {
+                    "slug": "bilateral-breast-classification-likelihoods",
+                    "kind": "Anything",
+                    "super_kind": "Value",
+                    "relative_path": "bilateral-breast-classification-likelihoods.json",
+                    "example_value": {
+                        "left": {
+                            "benign": 0.01,
+                            "normal": 0.988,
+                            "malignant": 0.001
+                        },
+                        "right": {
+                            "benign": 0.01,
+                            "normal": 0.001,
+                            "malignant": 0.988
+                        }
+                    }
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2024-11-29T10:31:25.691799Z",
+        "completed_at": "2024-11-29T10:31:50.691799Z"
+    }
+]

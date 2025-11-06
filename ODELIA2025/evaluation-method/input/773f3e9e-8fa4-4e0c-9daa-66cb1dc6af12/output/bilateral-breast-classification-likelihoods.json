@@ -1,0 +1,12 @@
+{
+    "left": {
+        "benign": 0.01,
+        "normal": 0.988,
+        "malignant": 0.001
+    },
+    "right": {
+        "benign": 0.01,
+        "normal": 0.001,
+        "malignant": 0.988
+    }
+}

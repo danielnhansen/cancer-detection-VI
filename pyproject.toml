@@ -1,0 +1,15 @@
+[project]
+name = "taks-4"
+version = "0.1.0"
+description = "Brest Cancer Detection - NTNU Visual Intelligence "
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "monai>=1.5.1",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "simpleitk>=2.5.2",
+    "torch>=2.9.0",
+    "torchvision>=0.24.0",
+    "tqdm>=4.67.1",
+]

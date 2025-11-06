@@ -1,0 +1,7 @@
+train_manifest: ./data/manifests_all/train_items.json
+val_manifest: ./data/manifests_all/val_items.json
+checkpoint_dir: ./outputs/all_resnet
+batch_size: 2
+num_workers: 4
+lr: 1e-4
+max_epochs: 40
