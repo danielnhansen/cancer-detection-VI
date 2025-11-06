@@ -148,7 +148,11 @@ def main():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # Load manifests
     train_items = load_items_from_manifest(cfg['train_manifest'])
+    test_items = load_items_from_manifest(cfg['test_manifest'])
     val_items = load_items_from_manifest(cfg['val_manifest'])
+    
+    # Merge train and test for more data
+    train_items += test_items
 
     train_trans, val_trans = build_transforms(cfg.get('crop_size', [32,256,256]))
     train_ds = OdeliaNPZDataset(train_items, transforms=train_trans)
