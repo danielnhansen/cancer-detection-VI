@@ -219,5 +219,5 @@ nnUNet/
 ODELIA2025/data/
 .DS_Store
 *.pt
-.uv.lock
+uv.lock
 
