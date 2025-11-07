@@ -1,0 +1,1346 @@
+[
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0173_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0173_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0175_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0175_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0176_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0176_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0178_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0178_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0179_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0179_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0180_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0180_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0181_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0181_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0183_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0183_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0185_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0185_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0186_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0186_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0187_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0187_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0191_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0191_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0192_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0192_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0194_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0194_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0195_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0195_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0196_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0196_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0197_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0197_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0198_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0198_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0199_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0199_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0200_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0200_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0203_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0203_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0206_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0206_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0207_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0207_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0208_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0208_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0210_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0210_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0211_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0211_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0213_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0213_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0214_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0214_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0215_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0215_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0217_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0217_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0218_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0218_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0219_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0219_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0223_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0223_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0224_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0224_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0227_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0227_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0228_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0228_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0229_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0229_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0231_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0231_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0232_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0232_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0233_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0233_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0234_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0234_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0235_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0235_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0237_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0237_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0239_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0239_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0241_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0241_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0242_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0242_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0243_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0243_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0245_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0245_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0247_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0247_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0248_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0248_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0250_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0250_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0252_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0252_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0253_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0253_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0255_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0255_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0256_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0256_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0257_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0257_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0260_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0260_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0262_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0262_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0263_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0263_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0265_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0265_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0266_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0266_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0270_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0270_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0272_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0272_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0273_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0273_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0274_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0274_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0276_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0276_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0277_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0277_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0279_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0279_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0281_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0281_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0282_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0282_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0285_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0285_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0287_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0287_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0288_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0288_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0289_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0289_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0291_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0291_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0292_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0292_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0293_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0293_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0295_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0295_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0297_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0297_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0299_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0299_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0300_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0300_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0301_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0301_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0302_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0302_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0303_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0303_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0305_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0305_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0307_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0307_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0308_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0308_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0309_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0309_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0310_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0310_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0313_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0313_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0315_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0315_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0316_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0316_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0318_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0318_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0319_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0319_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0321_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0321_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0322_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0322_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0324_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0324_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0327_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0327_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0328_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0328_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0329_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0329_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0777_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0777_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0778_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0778_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0780_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_BRAID1_0780_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0061_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0061_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0062_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0062_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0065_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0065_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0066_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0066_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0069_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0069_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0070_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0070_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0071_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0071_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0073_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0073_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0074_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0074_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0075_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0075_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0076_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0076_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0080_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0080_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0081_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0081_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0082_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0082_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0083_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0083_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0086_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0086_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0087_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0087_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0088_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0088_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0090_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0090_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0091_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0091_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0094_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0094_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0096_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0096_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0097_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0097_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0100_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0100_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0101_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0101_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0103_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0103_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0104_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_TRICKS_0104_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0105_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0105_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0106_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0106_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0108_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0108_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0111_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0111_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0112_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0112_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0113_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0113_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0116_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0116_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0117_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0117_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0119_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0119_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0120_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0120_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0122_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0122_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0125_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0125_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0127_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0127_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0128_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0128_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0131_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0131_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0132_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0132_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0133_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0133_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0134_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0134_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0135_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0135_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0137_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0137_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0140_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0140_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0142_1_left.npz",
+    "label": 0,
+    "uid": "ODELIA_TRICKS_0142_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0143_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0143_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0144_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0144_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0145_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0145_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0147_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0147_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0148_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0148_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0149_1_left.npz",
+    "label": 2,
+    "uid": "ODELIA_TRICKS_0149_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_TRICKS_0150_1_left.npz",
+    "label": 1,
+    "uid": "ODELIA_TRICKS_0150_1_left",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0173_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0173_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0175_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0175_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0176_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0176_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0178_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0178_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0179_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0179_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0180_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0180_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0181_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0181_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0183_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0183_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0185_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0185_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0186_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0186_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0187_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0187_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0191_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0191_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0192_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0192_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0194_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0194_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0195_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0195_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0196_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0196_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0197_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0197_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0198_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0198_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0199_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0199_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0200_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0200_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0203_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0203_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0206_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0206_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0207_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0207_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0208_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0208_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0210_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0210_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0211_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0211_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0213_1_right.npz",
+    "label": 1,
+    "uid": "ODELIA_BRAID1_0213_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0214_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0214_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0215_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0215_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0217_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0217_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0218_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0218_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0219_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0219_1_right",
+    "center": "CAM",
+    "split": "train"
+  },
+  {
+    "npz": "data/processed_CAM/ODELIA_BRAID1_0223_1_right.npz",
+    "label": 0,
+    "uid": "ODELIA_BRAID1_0223_1_right",
+    "center": "CAM",
+    "split": "train"
+  }
+]

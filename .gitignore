@@ -209,6 +209,11 @@ __marimo__/
 
 # Data
 data/
+!data/
+data/*
+!data/manifests_all/
+!data/manifests_all/*
+
 
 nnUNet/
 ODELIA2025/data/
