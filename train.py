@@ -16,7 +16,6 @@ import os
 import yaml
 import argparse
 import json
-from glob import glob
 from sklearn.metrics import roc_auc_score
 import numpy as np
 import torch
@@ -27,7 +26,7 @@ import torch.nn.functional as F
 from tqdm import tqdm
 
 import monai
-from monai.transforms import Compose, LoadImage, AddChannel, ScaleIntensity, RandFlip, RandAffined, RandGaussianNoise, ToTensor, Resize
+from monai.transforms import Compose, RandFlipd, RandGaussianNoised, ToTensord
 from monai.networks.nets import resnet as monai_resnet
 
 # ----------------------------
@@ -123,17 +122,16 @@ def load_items_from_manifest(manifest_path: str):
         items = json.load(f)
     return items
 
-def build_transforms(crop_size):
+def build_transforms(train=True):
     # Minimal transforms: convert to float tensor and maybe augment
     train_trans = Compose([
-        # Already loaded as array, so no LoadImage here
-        # AddChannel if needed: our npz data is (C,Z,Y,X) so keep as is
-        monai.transforms.ToTensor(),
-        # Random flipping in sagittal/vertical axes - careful with left/right; we avoid LR flips
-        RandFlip(spatial_axis=1, prob=0.5),  # flip in Y axis
-        RandGaussianNoise(prob=0.2),
+            RandFlipd(keys=["image"], spatial_axis=1, prob=0.5),
+            RandGaussianNoised(keys=["image"], prob=0.2),
+            ToTensord(keys=["image", "label"]),
         ])
-    val_trans = Compose([monai.transforms.ToTensor()])
+    val_trans = Compose([
+            ToTensord(keys=["image", "label"]),
+        ])
     return train_trans, val_trans
 
 # ----------------------------
@@ -167,7 +165,7 @@ def main():
 
     model = ResNet3DClassifier(in_channels=in_channels, n_classes=3).to(device)
     criterion = CrossEntropyLoss(weight=None)  # optionally set weights
-    optimizer = AdamW(model.parameters(), lr=cfg.get('lr', 1e-4), weight_decay=1e-5)
+    optimizer = AdamW(model.parameters(), lr=float(cfg.get('lr', 1e-4)), weight_decay=1e-5)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3)
 
     best_val_auc = -1.0

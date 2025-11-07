@@ -213,4 +213,5 @@ data/
 nnUNet/
 ODELIA2025/data/
 .DS_Store
+*.pt
 
