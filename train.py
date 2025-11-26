@@ -198,9 +198,9 @@ def main():
         # best model
         if not np.isnan(val_auc) and val_auc > best_val_auc:
             best_val_auc = val_auc
-            torch.save(ckpt, os.path.join(ckpt_dir, f"best_model.pt"))
+            torch.save(ckpt, os.path.join(ckpt_dir, f"{"bigger" if bigger_model else ""}best_model.pt"))
             # save predictions for inspection
-            np.savez_compressed(os.path.join(ckpt_dir, 'best_val_preds.npz'), labels=np.array(val_labels), probs=np.array(val_probs))
+            np.savez_compressed(os.path.join(ckpt_dir, f'{"bigger" if bigger_model else ""}best_val_preds.npz'), labels=np.array(val_labels), probs=np.array(val_probs))
 
     print("Training finished. Best val AUC:", best_val_auc)
 
