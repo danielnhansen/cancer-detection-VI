@@ -44,7 +44,7 @@ class OdeliaNPZDataset(Dataset):
         data = np.load(item['npz'], allow_pickle=True)
         arr = data['arr']  # (C,Z,Y,X)
         
-        # MONAI normally expects (C, Z, Y, X) and ToTensor will convert to torch
+        # MONAI normally expects (C, Z, Y, X) and ToTensor will convert to torch | label NEEDS to be int64, else crashes?
         sample = {"image": arr.astype(np.float32), "label": np.int64(item['label'])}
         
         # In some strange cases, transforms may be None
@@ -58,9 +58,12 @@ class OdeliaNPZDataset(Dataset):
 
 # Model wrapper
 class ResNet3DClassifier(torch.nn.Module):
-    def __init__(self, in_channels, n_classes=3, pretrained=False):
+    def __init__(self, in_channels, n_classes=3, pretrained=False, bigger=True):
         super().__init__()
-        self.backbone = monai_resnet.resnet18(spatial_dims=3, n_input_channels=in_channels, num_classes=n_classes)
+        if bigger:
+            self.backbone = monai_resnet.resnet152(spatial_dims=3, n_input_channels=in_channels, num_classes=n_classes)
+        else:
+            self.backbone = monai_resnet.resnet18(spatial_dims=3, n_input_channels=in_channels, num_classes=n_classes)
         # MONAI's resnet already ends with linear -> we can keep it
         
     def forward(self, x):
@@ -108,9 +111,7 @@ def valid_epoch(model, loader, device):
     auc = compute_auc(all_labels, all_probs)
     return val_loss / len(loader.dataset), auc, all_labels, all_probs
 
-# ----------------------------
 # Simple config loader & dataset builder
-# ----------------------------
 def load_items_from_manifest(manifest_path: str):
     """
     Expect a manifest JSON lines file mapping npz -> label.
@@ -138,6 +139,7 @@ def main():
     parser.add_argument('--config', required=True, help='yaml config file')
     args = parser.parse_args()
     cfg = yaml.safe_load(open(args.config))
+    bigger_model = cfg.get('bigger_model', True)
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # Load manifests
@@ -149,6 +151,7 @@ def main():
     print(f"Len of train items before merge: {len(train_items)}")
     train_items += test_items
     print(f"Len of train items after merge: {len(train_items)}")
+    print(f"Len of val items: {len(val_items)}")
 
     train_trans, val_trans = build_transforms(cfg.get('crop_size', [32,256,256]))
     
@@ -157,27 +160,29 @@ def main():
 
     # exit(0) # Debugging line to prevent further execution
     
-    train_loader = DataLoader(train_ds, batch_size=cfg.get('batch_size', 2), shuffle=True, num_workers=cfg.get('num_workers', 4), pin_memory=True)
-    val_loader = DataLoader(val_ds, batch_size=cfg.get('batch_size', 2), shuffle=False, num_workers=cfg.get('num_workers', 2), pin_memory=True)
+    train_loader = DataLoader(train_ds, batch_size=cfg.get('batch_size', 8), shuffle=True, num_workers=cfg.get('num_workers', 1), pin_memory=True)
+    val_loader = DataLoader(val_ds, batch_size=cfg.get('batch_size', 8), shuffle=False, num_workers=cfg.get('num_workers', 2), pin_memory=True)
 
     # determine input channels from first item
     sample_arr = np.load(train_items[0]['npz'])['arr']
     in_channels = sample_arr.shape[0]
 
-    model = ResNet3DClassifier(in_channels=in_channels, n_classes=3).to(device)
+    model = ResNet3DClassifier(in_channels=in_channels, n_classes=3, bigger=bigger_model).to(device)
     criterion = CrossEntropyLoss(weight=None)  # optionally set weights
     optimizer = AdamW(model.parameters(), lr=float(cfg.get('lr', 1e-4)), weight_decay=1e-5)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3)
 
     best_val_auc = -1.0
     ckpt_dir = cfg.get('checkpoint_dir', './checkpoints')
+    if bigger_model:
+        ckpt_dir = './outputs/all_resnet152'
     os.makedirs(ckpt_dir, exist_ok=True)
 
     for epoch in range(1, cfg.get('max_epochs', 100) + 1):
         train_loss = train_epoch(model, train_loader, criterion, optimizer, device)
         val_loss, val_auc, val_labels, val_probs = valid_epoch(model, val_loader, device)
 
-        print(f"Epoch {epoch}: train_loss={train_loss:.4f}, val_loss={val_loss:.4f}, val_auc={val_auc:.4f}")
+        print(f"Epoch {"bigger model" if bigger_model else ""} {epoch}: train_loss={train_loss:.4f}, val_loss={val_loss:.4f}, val_auc={val_auc:.4f}")
         scheduler.step(val_auc if not np.isnan(val_auc) else 0.0)
 
         # Save checkpoint
@@ -185,7 +190,8 @@ def main():
             'epoch': epoch,
             'model_state': model.state_dict(),
             'optim_state': optimizer.state_dict(),
-            'val_auc': val_auc
+            'val_auc': val_auc,
+            'bigger_model': bigger_model,
         }
         torch.save(ckpt, os.path.join(ckpt_dir, f"ckpt_epoch{epoch:03d}.pt"))
 
