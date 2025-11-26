@@ -45,7 +45,7 @@ class OdeliaNPZDataset(Dataset):
         arr = data['arr']  # (C,Z,Y,X)
         
         # MONAI normally expects (C, Z, Y, X) and ToTensor will convert to torch
-        sample = {"image": arr.astype(np.float32), "label": np.int8(item['label'])}
+        sample = {"image": arr.astype(np.float32), "label": np.int64(item['label'])}
         
         # In some strange cases, transforms may be None
         if self.transforms:
@@ -78,7 +78,7 @@ def compute_auc(y_true, y_pred_probs):
 def train_epoch(model, loader, criterion, optimizer, device):
     model.train()
     running_loss = 0.0
-    for images, labels in tqdm(loader, desc="train", leave=False):
+    for images, labels in tqdm(loader, desc="train", leave=False, file=os.sys.stdout):
         images = images.to(device)
         labels = labels.to(device)
         preds = model(images)
@@ -96,7 +96,7 @@ def valid_epoch(model, loader, device):
     val_loss = 0.0
     criterion = CrossEntropyLoss()
     with torch.no_grad():
-        for images, labels in tqdm(loader, desc="valid", leave=False):
+        for images, labels in tqdm(loader, desc="valid", leave=False, file=os.sys.stdout):
             images = images.to(device)
             labels = labels.to(device)
             logits = model(images)

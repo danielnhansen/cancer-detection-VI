@@ -29,8 +29,8 @@ pip install uv --user
 # Sync the environment
 uv sync
 
-# Make sure PyTorch has CUDA enabled
-python - <<'PY'
+# Make sure PyTorch has CUDA enabled (run inside uv env)
+uv run python - <<'PY'
 import torch
 print("✅ PyTorch:", torch.__version__)
 print("✅ CUDA available:", torch.cuda.is_available())
