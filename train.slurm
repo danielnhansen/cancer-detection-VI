@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH --account=studiegrupper-cogito
+#SBATCH --account=share-ie-idi
 #SBATCH --job-name="breast-cancer-train"
 #SBATCH --time=08:00:00
 #SBATCH --partition=GPUQ
@@ -20,27 +20,13 @@ echo "Name of job: $SLURM_JOB_NAME"
 echo "ID of job: $SLURM_JOB_ID"
 echo "The job was run on these nodes: $SLURM_JOB_NODELIST"
 
-ENV_PATH="/cluster/work/$(whoami)/${WORKDIR}/cv-env/"
-
 module purge
 module load Anaconda3/2024.02-1
 
-if [ ! -d "${ENV_PATH}" ]; then
-  echo "Creating new Conda env at ${ENV_PATH}"
-  conda create -y -p "${ENV_PATH}" python=3.12
-fi
+pip install uv --user
 
-conda activate "${ENV_PATH}"
-
-# -----------------------------------------------------------------------------
-#  Dependencies
-# -----------------------------------------------------------------------------
-if [ -f requirements.txt ]; then
-  echo "Installing Python dependencies from requirements.txt"
-  pip install -r requirements.txt
-else
-  echo "⚠️  requirements.txt not found at ${WORKDIR}"
-fi
+# Sync the environment
+uv sync
 
 # Make sure PyTorch has CUDA enabled
 python - <<'PY'
@@ -55,9 +41,6 @@ else:
 PY
 
 # Run the Python script
-python train.py --config ./train_config.yaml  
-
-# Deactivate the environment
-conda deactivate
+uv run train.py --config ./train_config.yaml  
 
 echo "Job finished"

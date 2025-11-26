@@ -1,8 +1,8 @@
 """
-preprocess.py  —  for ODELIA unilateral folders
+For ODELIA unilateral folders
 
 Example usage:
-  python preprocess.py --input ./CAM/data_unilateral --output ./data/processed_CAM
+  uv run preprocess.py --input ./CAM/data_unilateral --output ./data/processed_CAM
 """
 
 import os, argparse, json
@@ -49,8 +49,7 @@ def build_channels(folder):
     if 'pre' not in imgs:
         raise FileNotFoundError(f"No Pre.nii.gz in {folder}")
 
-    # resample all to pre spacing
-    pre_img = imgs['pre'][1]
+    # resample all to pre spacing for consistency (and working with model)
     target_spacing = (0.7,0.7,3.0)
     resampled = {}
     for k,(arr,img) in imgs.items():
@@ -63,7 +62,9 @@ def build_channels(folder):
     diff = post1 - pre
     rel = diff / (pre + 1e-6)
     channels = [pre, post1, diff, rel]
+    
     if 't2' in resampled:
+        # Append T2 as additional channel if available
         channels.append(resampled['t2'])
     out = np.stack(channels, axis=0)  # (C,Z,Y,X)
     out = normalize_zscore(out)

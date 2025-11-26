@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """
-train.py
-
-Training skeleton using MONAI + PyTorch for ODELIA unilateral classification.
-
 Usage:
-  python train.py --config train_config.yaml
+  uv run train.py --config train_config.yaml
+
+Easy to copy-past command line
 
 Outputs:
  - checkpoints saved to checkpoint_dir
@@ -29,9 +27,7 @@ import monai
 from monai.transforms import Compose, RandFlipd, RandGaussianNoised, ToTensord
 from monai.networks.nets import resnet as monai_resnet
 
-# ----------------------------
-# Simple Dataset for processed .npz unilateral files
-# ----------------------------
+# Simple Dataset for processed .npz unilateral files (custom made with the preprocessing script)
 class OdeliaNPZDataset(Dataset):
     """
     Expects items list of dicts: {'npz': path, 'label': int (0-normal,1-benign,2-malignant), 'study_id': str}
@@ -47,29 +43,31 @@ class OdeliaNPZDataset(Dataset):
         item = self.items[idx]
         data = np.load(item['npz'], allow_pickle=True)
         arr = data['arr']  # (C,Z,Y,X)
+        
         # MONAI normally expects (C, Z, Y, X) and ToTensor will convert to torch
-        sample = {"image": arr.astype(np.float32), "label": np.int64(item['label'])}
+        sample = {"image": arr.astype(np.float32), "label": np.int8(item['label'])}
+        
+        # In some strange cases, transforms may be None
         if self.transforms:
             sample = self.transforms(sample)
+            
         # ensure dtype
         return sample['image'], sample['label']
 
-# ----------------------------
+
+
 # Model wrapper
-# ----------------------------
 class ResNet3DClassifier(torch.nn.Module):
     def __init__(self, in_channels, n_classes=3, pretrained=False):
         super().__init__()
-        # Use MONAI's resnet implementations; pick a lightweight variant (18)
         self.backbone = monai_resnet.resnet18(spatial_dims=3, n_input_channels=in_channels, num_classes=n_classes)
         # MONAI's resnet already ends with linear -> we can keep it
+        
     def forward(self, x):
         return self.backbone(x)
 
-# ----------------------------
 # Training & validation functions
-# ----------------------------
-def compute_auc_ytrue_ypred(y_true, y_pred_probs):
+def compute_auc(y_true, y_pred_probs):
     # y_true: (N,) values 0/1/2 - compute malignant vs non-malignant AUC
     y_true_bin = (np.array(y_true) == 2).astype(int)
     y_scores = np.array(y_pred_probs)[:, 2]  # predicted malignant prob
@@ -107,7 +105,7 @@ def valid_epoch(model, loader, device):
             val_loss += loss * images.shape[0]
             all_labels.extend(labels.cpu().numpy().tolist())
             all_probs.extend(probs.tolist())
-    auc = compute_auc_ytrue_ypred(all_labels, all_probs)
+    auc = compute_auc(all_labels, all_probs)
     return val_loss / len(loader.dataset), auc, all_labels, all_probs
 
 # ----------------------------
@@ -115,7 +113,7 @@ def valid_epoch(model, loader, device):
 # ----------------------------
 def load_items_from_manifest(manifest_path: str):
     """
-    Expect a manifest CSV/TSV or JSON lines file mapping npz -> label.
+    Expect a manifest JSON lines file mapping npz -> label.
     For simplicity accept a JSON list of dicts: [{'npz': '/path', 'label': 2, 'side': 'left'}, ...]
     """
     with open(manifest_path, 'r') as f:
@@ -123,7 +121,6 @@ def load_items_from_manifest(manifest_path: str):
     return items
 
 def build_transforms(train=True):
-    # Minimal transforms: convert to float tensor and maybe augment
     train_trans = Compose([
             RandFlipd(keys=["image"], spatial_axis=1, prob=0.5),
             RandGaussianNoised(keys=["image"], prob=0.2),
@@ -134,9 +131,8 @@ def build_transforms(train=True):
         ])
     return train_trans, val_trans
 
-# ----------------------------
+
 # Main training script
-# ----------------------------
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', required=True, help='yaml config file')
@@ -150,12 +146,17 @@ def main():
     val_items = load_items_from_manifest(cfg['val_manifest'])
     
     # Merge train and test for more data
+    print(f"Len of train items before merge: {len(train_items)}")
     train_items += test_items
+    print(f"Len of train items after merge: {len(train_items)}")
 
     train_trans, val_trans = build_transforms(cfg.get('crop_size', [32,256,256]))
+    
     train_ds = OdeliaNPZDataset(train_items, transforms=train_trans)
     val_ds = OdeliaNPZDataset(val_items, transforms=val_trans)
 
+    # exit(0) # Debugging line to prevent further execution
+    
     train_loader = DataLoader(train_ds, batch_size=cfg.get('batch_size', 2), shuffle=True, num_workers=cfg.get('num_workers', 4), pin_memory=True)
     val_loader = DataLoader(val_ds, batch_size=cfg.get('batch_size', 2), shuffle=False, num_workers=cfg.get('num_workers', 2), pin_memory=True)
 
