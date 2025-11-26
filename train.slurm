@@ -7,8 +7,9 @@
 #SBATCH --mem=48GB
 #SBATCH --nodes=1
 #SBATCH --constraint="(a100|h100|h200)&(gpu40g|gpu80g)"
-#SBATCH --output=slurm_outputs/output_combined.txt
-#SBATCH --error=slurm_outputs/output_combined.err
+# Use Slurm placeholders: %j=jobid, %x=jobname, %A=array jobid, %a=array index
+#SBATCH --output=slurm_outputs/%j.txt
+#SBATCH --error=slurm_outputs/%j.err
 #SBATCH --mail-user=danielnh@ntnu.no
 #SBATCH --mail-type=ALL
 
