@@ -1,0 +1,13 @@
+Running from this directory: /cluster/work/danielnh/cancer-detection-VI
+Name of job: breast-cancer-train
+ID of job: 23671588
+The job was run on these nodes: idun-07-07
+Requirement already satisfied: uv in /cluster/home/danielnh/.local/lib/python3.10/site-packages (0.9.9)
+✅ PyTorch: 2.9.1+cu128
+✅ CUDA available: True
+✅ GPU count: 1
+✅ GPU name(s): ['NVIDIA A100-PCIE-40GB']
+Len of train items before merge: 192
+Len of train items after merge: 334
+Len of val items: 144
+train:   0%|          | 0/42 [00:00<?, ?it/s]                                             Job finished

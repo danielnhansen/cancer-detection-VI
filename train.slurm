@@ -1,12 +1,12 @@
 #!/bin/sh
 #SBATCH --account=share-ie-idi
 #SBATCH --job-name="breast-cancer-train"
-#SBATCH --time=08:00:00
+#SBATCH --time=24:00:00
 #SBATCH --partition=GPUQ
 #SBATCH --gres=gpu:1
-#SBATCH --mem=48GB
+#SBATCH --mem=164GB
 #SBATCH --nodes=1
-#SBATCH --constraint="(a100|h100|h200)&(gpu40g|gpu80g)"
+#SBATCH --constraint="(a100|h100|h200)&(gpu80g)"
 # Use Slurm placeholders: %j=jobid, %x=jobname, %A=array jobid, %a=array index
 #SBATCH --output=slurm_outputs/%j.txt
 #SBATCH --error=slurm_outputs/%j.err
