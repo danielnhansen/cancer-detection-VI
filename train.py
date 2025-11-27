@@ -105,7 +105,7 @@ def valid_epoch(model, loader, device):
             logits = model(images)
             probs = F.softmax(logits, dim=1).cpu().numpy()
             loss = criterion(logits, labels).item()
-            val_loss += loss * images.shape[0]
+            val_loss += loss * images.shape[0] #Batch size loss sum
             all_labels.extend(labels.cpu().numpy().tolist())
             all_probs.extend(probs.tolist())
     auc = compute_auc(all_labels, all_probs)
